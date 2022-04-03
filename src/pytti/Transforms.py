@@ -9,7 +9,7 @@ from pytti.LossAug.DepthLossClass import DepthLoss
 # from pytti.Image.PixelImage import PixelImage
 from adabins.infer import InferenceHelper  # Not used here
 
-TB_LOGDIR = "logs"  # to do: make this more easily configurable
+TB_LOGDIR = "/tmp/logs"  # to do: make this more easily configurable
 from loguru import logger
 from torch.utils.tensorboard import SummaryWriter
 

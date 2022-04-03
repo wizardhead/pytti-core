@@ -76,7 +76,7 @@ pd.options.display.max_columns = None
 pd.options.display.width = 175
 
 
-TB_LOGDIR = "logs"  # to do: make this more easily configurable
+TB_LOGDIR = "/tmp/logs"  # to do: make this more easily configurable
 writer = SummaryWriter(TB_LOGDIR)
 OUTPATH = f"{os.getcwd()}/images_out/"
 
